@@ -7,7 +7,7 @@ for (var i = 0; i < 15; i++) {
   if (first == second) {
     duble = first;
   }
-  var result = "Первая кость: " + first + " Вторая кость: " + second + "<br>";
+  var result = `Первая кость: ${first} Вторая кость: ${second} <br>`;
   document.getElementById("result").innerHTML += result;
   if (duble > 0) {
     document.getElementById(
